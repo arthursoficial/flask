@@ -128,7 +128,7 @@ def hello_world():
 
 @app.route('/upload_model', methods=['POST'])
 def upload_model():
-    # Parâmetros
+    # Parâmetrosa
     file_name= request.args.get('file_name', default='')
     repo = request.args.get('repo', default='')
     url = request.args.get('url', default='')
